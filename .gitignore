@@ -1,0 +1,5 @@
+# Ignore CSS Customizations
+custom.css
+
+# Ignore Custom Translation
+languages/*Wikilogia*.*o
