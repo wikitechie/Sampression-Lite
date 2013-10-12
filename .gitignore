@@ -1,5 +1,5 @@
 # Ignore CSS Customizations
-custom.css
+# custom.css # Uncommented for Wikilogia Magazine
 
 # Ignore Custom Translation
-languages/*Wikilogia*.*o
+# languages/*Wikilogia*.*o # Uncommented for Wikilogia Magazine
