@@ -1,0 +1,83 @@
+#top-nav ul a:link, #top-nav ul a:visited {
+	color:#0c96c2;
+}
+
+#top-nav ul li li a, #top-nav ul li.current-menu-item li a, #top-nav ul li.current-menu-parent li a, #top-nav ul li.current-menu-ancestor li a, #top-nav ul li li.current-menu-item li a, #top-nav ul li li.current-menu-parent li a, /*3rd level*/
+#top-nav ul li li.current-menu-parent li.current-menu-item a {
+	background-color:#fff;
+	color:#0c96c2;
+}
+
+#top-nav ul li li a, 
+#top-nav ul li.current-menu-item li a, 
+#top-nav ul li.current-menu-parent li a, 
+#top-nav ul li.current-menu-ancestor li a, 
+#top-nav ul li li.current-menu-item li a, 
+#top-nav ul li li.current-menu-parent li a, 
+#top-nav ul li li.current-menu-parent li.current-menu-item a,
+#top-nav .sub-menu li a, 
+#top-nav .sub-menu .sub-menu li a,
+#top-nav .sub-menu li:last-child > .sub-menu li a,
+#top-nav .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li a,
+#top-nav .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li a{
+	color:#0c96c2;
+}
+
+#searchform:hover input {
+	border-color:#0c96c2;
+}
+#searchform:hover input#searchsubmit{
+	border-color:#0c96c2;
+}
+
+.sm-top li.sm-top-fb a:hover, 
+.sm-top li.sm-top-gplus a:hover ,
+.sm-top li.sm-top-tw a:hover,
+.sm-top li.sm-top-youtube a:hover {
+	border-color:#0c96c2;
+}
+
+#primary-nav ul.nav-listing li a {
+	color:#0c96c2;
+}
+
+#primary-nav ul.nav-listing li a:hover, #primary-nav ul.nav-listing li a.selected {
+	color:#0c96c2;
+}
+
+#primary-nav ul.nav-listing li a span {
+	background-color:#0c96c2;
+}
+
+#primary-nav ul.nav-listing li a.selected span {
+	background-color:#0c96c2;
+}
+
+.btn-top:hover {
+	border:1px solid #0c96c2;
+}
+
+.corner-stamp {
+	background-color:#0c96c2;
+}
+
+.corner-stamp.columns.four {
+	background-color: #0c96c2;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 5/2),
+only screen and ( min-resolution: 144dpi) {
+	.button,
+	button,
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"] {
+		background: url('images/arrow2x.png') no-repeat 9px 9px #0c96c2;
+	}
+	#primary-nav ul.nav-listing li a.selected span {
+		background-color: #0c96c2;
+	}
+}
+
