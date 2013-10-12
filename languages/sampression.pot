@@ -100,9 +100,19 @@ msgid ""
 "This post is password protected. Enter the password to view any comments."
 msgstr ""
 
-#: C:\xampp\htdocs\wpa\wp-content\themes\sampression-lite/comments.php:35
+#: C:\xampp\htdocs\wpa\wp-content\themes\sampression-lite/comments.php:36
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wpa\wp-content\themes\sampression-lite/comments.php:39
+#, php-format
+msgid "Two thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wpa\wp-content\themes\sampression-lite/comments.php:42
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr ""
 
 #: C:\xampp\htdocs\wpa\wp-content\themes\sampression-lite/comments.php:42

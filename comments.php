@@ -32,8 +32,15 @@ if ( !defined('ABSPATH')) exit;
 	<?php if ( have_comments() ) : ?>
 		<h2 id="comments-title">
 			<?php
-				printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'sampression' ),
-					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				if (get_comments_number() == 1) {
+					printf( __( 'One thought on &ldquo;%2$s&rdquo;', 'sampression' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				}
+				elseif (get_comments_number() == 2) {
+					printf( __( 'Two thought on &ldquo;%2$s&rdquo;', 'sampression' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				}
+				else {
+					printf( __( '%1$s thoughts on &ldquo;%2$s&rdquo;', 'sampression' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				}
 			?>
 		</h2>
 
