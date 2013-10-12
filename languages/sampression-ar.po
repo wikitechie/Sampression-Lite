@@ -40,7 +40,7 @@ msgstr "الأرشيف السنوي: %s"
 
 #: archive.php:31
 msgid "Blog Archives"
-msgstr "أرشيف المدونة"
+msgstr "أرشيف المجلة"
 
 #: archive.php:39
 #: author.php:46
@@ -61,7 +61,7 @@ msgstr "التصنيفات"
 #: index.php:63
 #: tag.php:62
 msgid "Nothing Found"
-msgstr "لم نجد أية تدوينات"
+msgstr "لم نجد أية مقالات"
 
 #: archive.php:75
 #: author.php:82
@@ -73,7 +73,7 @@ msgid ""
 "searching will help find a related post."
 msgstr ""
 "عذراً، ولكن لم نجد أية نتائج في الأرشيف الذي طلبته. ربما يساعدك البحث في "
-"إيجاد التدوينات المطلوبة."
+"إيجاد المقالات المطلوبة."
 
 #: author.php:29
 msgid "Author Archives: "
@@ -91,15 +91,19 @@ msgstr "الأرشيف"
 
 #: comments.php:19
 msgid "This post is password protected. Enter the password to view any comments."
-msgstr "هذه التدوينة محمية بكلمة مرور. أدخل كلمة المرور لرؤية التدوينة والتعليقات عليها."
+msgstr "هذه المقالة محمية بكلمة مرور. أدخل كلمة المرور لرؤية المقالة والتعليقات عليها."
 
-#: comments.php:35
+#: comments.php:36
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgstr "تعليق واحد على &rdquo;%2$s&ldquo;"
 
-#: comments.php:35
+#: comments.php:39
+msgid "Two thoughts on &ldquo;%2$s&rdquo;"
+msgstr "تعليقان على &rdquo;%2$s&ldquo;"
+
+#: comments.php:42
 msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr "%1$s تعليقاً على &rdquo;%2$s&ldquo;"
+msgstr "%1$s تعليقا(ت) على &rdquo;%2$s&ldquo;"
 
 #: comments.php:42
 #: comments.php:62
@@ -135,7 +139,7 @@ msgstr "الكل"
 #: image.php:17
 #: single.php:17
 msgid "Post navigation"
-msgstr "تصفح التدوينات"
+msgstr "تصفح المقالات"
 
 #: image.php:18
 msgid "<span class=\"meta-nav\">&larr;</span> Back to Gallery"
@@ -201,7 +205,7 @@ msgstr "<span class=\"ico\">التصنيفات</span><div class=\"overflow-hidde
 
 #: loop.php:65
 msgid "Edit this post"
-msgstr "تحرير هذه التدوينة"
+msgstr "تحرير هذه المقالة"
 
 #: search.php:19
 msgid "Search Results for: %s"
@@ -233,7 +237,7 @@ msgstr "الأكثر قراءة"
 
 #: sidebar.php:19
 msgid "Most Popular Posts"
-msgstr "التدوينات الأكثر قراءة"
+msgstr "المقالات الأكثر قراءة"
 
 #: sidebar.php:43
 msgid "Recent Comments"
@@ -245,11 +249,11 @@ msgstr "نبذة"
 
 #: single.php:18
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr "<span class=\"meta-nav\">&rarr;</span>التدوينة السابقة"
+msgstr "<span class=\"meta-nav\">&rarr;</span>المقالة السابقة"
 
 #: single.php:19
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "التدوينة التالية<span class=\"meta-nav\">&larr;</span>"
+msgstr "المقالة التالية<span class=\"meta-nav\">&larr;</span>"
 
 #: tag.php:17
 msgid "Tag Archives: %s"
@@ -269,11 +273,11 @@ msgstr "تصميم "
 
 #: includes/functions.php:180
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&rarr;</span> تدوينات أقدم"
+msgstr "<span class=\"meta-nav\">&rarr;</span> مقالات أقدم"
 
 #: includes/functions.php:181
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "<span class=\"meta-nav\">&larr;</span> تدوينات أحدث"
+msgstr "<span class=\"meta-nav\">&larr;</span> مقالات أحدث"
 
 #: includes/functions.php:238
 msgid "Read more &#8250;"
