@@ -586,7 +586,7 @@ function sampression_filter_cat_callback() {
         
       </div>
       <div class="meta">
-        <div class="cats"><?php printf(__('<span class="ico">Categories</span><div class="overflow-hidden cat-listing">%s</div>', 'sampression'), get_the_category_list(', ')); ?></div>
+        <div class="cats"><?php printf(__('<span class="ico">Categories</span><div class="overflow-hidden cat-listing">%s</div>', 'sampression'), get_the_category_list(__(', '))); ?></div>
       </div>
     </article>
 	<?php

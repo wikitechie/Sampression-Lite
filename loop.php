@@ -52,11 +52,11 @@ if ( !defined('ABSPATH')) exit;
             ?>
       </div>
       <div class="meta">
-        <div class="cats"><?php printf(__('<span class="ico">Categories</span><div class="overflow-hidden cat-listing">%s</div>', 'sampression'), get_the_category_list(', ')); ?></div>
+        <div class="cats"><?php printf(__('<span class="ico">Categories</span><div class="overflow-hidden cat-listing">%s</div>', 'sampression'), get_the_category_list(__(', '))); ?></div>
       </div>
       <?php if(has_tag()) {?>
       <div class="meta">
-        <div class="tags"><span class="ico">Tags</span><div class="overflow-hidden tag-listing"><?php the_tags(' ', ', ', '<br />'); ?></div> </div>
+        <div class="tags"><span class="ico">Tags</span><div class="overflow-hidden tag-listing"><?php the_tags(' ', __(', '), '<br />'); ?></div> </div>
       </div>
       <?php } ?>
       
