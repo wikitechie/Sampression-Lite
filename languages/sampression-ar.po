@@ -289,7 +289,7 @@ msgstr "تنبيه:"
 
 #: includes/functions.php:405
 msgid "%1$s on %2$s"
-msgstr "%1$s على %2$s"
+msgstr "%1$s بتاريخ %2$s"
 
 #: includes/functions.php:420
 msgid "Reply <span>&darr;</span>"
