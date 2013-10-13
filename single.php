@@ -46,7 +46,7 @@ get_header(); ?>
 				<?php 
 					printf( __( '%3$s <time class="" datetime="2011-09-28"><span class="ico">&nbsp;</span>%2$s</time> ', 'sampression' ),'meta-prep meta-prep-author',
 						sprintf( '<a href="%4$s" title="%2$s" rel="bookmark">%3$s</a>',
-							get_month_link( get_the_time('Y'), get_the_time('m'))و
+							get_month_link( get_the_time('Y'), get_the_time('m')),
 							esc_attr( get_the_time() ),
 							get_the_date(),
 							get_permalink()
