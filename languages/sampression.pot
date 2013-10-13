@@ -143,6 +143,13 @@ msgstr ""
 msgid "Show All"
 msgstr ""
 
+#: image.php:39
+#: includes/functions.php:573
+#: loop.php:48
+#: single.php:56
+msgid "View all posts by %s"
+msgstr ""
+
 #: image.php:45
 #: image.php:55
 #: includes/functions.php:589
