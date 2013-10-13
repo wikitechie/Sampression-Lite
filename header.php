@@ -33,6 +33,7 @@
 		wp_head();
 	?>
 
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/custom.css" type="text/css" media="all">
 	
 </head>
 
