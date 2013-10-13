@@ -42,7 +42,7 @@ get_header(); ?>
                 );
             ?>
             
-            <div class="col cats"><?php printf(__('<span class="ico">Categories</span> %s', 'sampression'), get_the_category_list(', ')); ?></div>
+            <div class="col cats"><?php printf(__('<span class="ico">Categories</span> %s', 'sampression'), get_the_category_list( __(', ') )); ?></div>
             
             <div class="col count-comment">
 			<?php if ( comments_open() ) : ?>
@@ -52,7 +52,7 @@ get_header(); ?>
         	</div>
             
 			<?php if(has_tag()) {?>
-                    <div class="tags col"><span class="ico">Tags</span><?php the_tags(' ', ', '); ?> </div>
+                    <div class="tags col"><span class="ico">Tags</span><?php the_tags(' ', __(', ')); ?> </div>
             <?php } ?>
         
         <?php if(is_user_logged_in()){ ?>

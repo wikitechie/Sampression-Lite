@@ -136,6 +136,16 @@ msgstr "اختر المواضيع:"
 msgid "Show All"
 msgstr "الكل"
 
+#: image.php:45
+#: image.php:55
+#: includes/functions.php:589
+#: loop.php:55
+#: loop.php:59
+#: single.php:62
+#: single.php:65
+msgid ", "
+msgstr "، "
+
 #: image.php:17
 #: single.php:17
 msgid "Post navigation"
@@ -289,7 +299,7 @@ msgstr "تنبيه:"
 
 #: includes/functions.php:405
 msgid "%1$s on %2$s"
-msgstr "%1$s على %2$s"
+msgstr "%1$s بتاريخ %2$s"
 
 #: includes/functions.php:420
 msgid "Reply <span>&darr;</span>"
