@@ -1,10 +1,10 @@
+/* Change Font to Droid Arabic Kufi*/
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
 /* Hide the WordPress Stats Icon */
 #wpstats {
 	display:none;
 }
-
-/* Change Font to Droid Arabic Kufi*/
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
 body {
 	font-family: 'Droid Arabic Kufi', arial;
