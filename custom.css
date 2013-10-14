@@ -1,3 +1,34 @@
+/* Change Font to Droid Arabic Kufi*/
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+h1, h2, h3, h4, h5, h6, #comment-header {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+pre {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+.widget .widget-title {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
+#cancel-comment-reply-link {
+	font-family: 'Droid Arabic Kufi', arial;
+}
+
 /* Fix bottom links margin */
 #nav-bottom {
 	margin-bottom:20px;
