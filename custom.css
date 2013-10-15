@@ -34,6 +34,34 @@ pre {
 	font-family: 'Droid Arabic Kufi', arial;
 }
 
+/* Fix the Fancier author box styles */
+.ts-fab-list {
+	padding: 0 5px 0 0;
+}
+
+.ts-fab-list li {
+	float: right;
+	margin: 0 0 0 5px !important;
+}
+
+.ts-fab-list li a {
+	padding: 8px 12px;
+}
+
+.ts-fab-avatar {
+	float: right;
+}
+.ts-fab-no-float .ts-fab-avatar {
+	margin: 0 0 12px;
+}
+.ts-fab-text {
+	margin-left: 0;
+	margin-right: 96px;
+}
+.ts-fab-no-float .ts-fab-text {
+	margin-left: 0;
+}
+
 /* Fix bottom links margin */
 #nav-bottom {
 	margin-bottom:20px;
