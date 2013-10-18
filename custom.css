@@ -1,37 +1,43 @@
-/* Change Font to Droid Arabic Kufi*/
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-
-/* Hide the WordPress Stats Icon */
-#wpstats {
-	display:none;
+@font-face {
+	font-family: 'Droid Sans Arabic';
+	font-style: normal;
+	font-weight: 400;
+	src: url(lib/DroidSansArabic.ttf) format('truetype');
 }
 
+/* Change Theme Fonts */
+
 body {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 h1, h2, h3, h4, h5, h6, #comment-header {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 input[type="text"], input[type="password"], input[type="email"], textarea, select {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 pre {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 .widget .widget-title {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
 }
 
 #cancel-comment-reply-link {
-	font-family: 'Droid Arabic Kufi', arial;
+	font-family: 'Droid Sans Arabic', arial;
+}
+
+/* Hide the WordPress Stats Icon if not already hidden from Jetpack -> Stats -> Config */
+#wpstats {
+	display:none;
 }
 
 /* Fix the Fancier author box styles */
@@ -67,6 +73,30 @@ pre {
 	margin-bottom:20px;
 	margin-bottom:2.0rem;
 }
+
+/* Remove the Sampression Background and make the background white */
+#content-wrapper {
+	background-image:none;
+}
+
+/* Decrease the width of post poster by 2, and replace them with an elegant border */
+.container .four.columns {
+	width:218px;
+}
+
+.post {
+	border:solid 1px #8ab7ad;
+}
+
+/* Give comments a colored background after setting global background to white */
+.commentlist .comment-entry {
+	background-color:#f5f5f5;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+}
+
+/* Changing Colors */
 
 #top-nav ul a:link, #top-nav ul a:visited {
 	color:#0c96c2;
@@ -150,4 +180,3 @@ only screen and ( min-resolution: 144dpi) {
 		background-color: #0c96c2;
 	}
 }
-
