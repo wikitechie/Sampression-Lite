@@ -1,113 +1,53 @@
+/* Change Fonts */
 @font-face {
 	font-family: 'Droid Sans Arabic';
 	font-style: normal;
 	font-weight: 400;
 	src: url(lib/DroidSansArabic.ttf) format('truetype');
 }
-
-/* Change Theme Fonts */
-
-body {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
-h1, h2, h3, h4, h5, h6, #comment-header {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
-input[type="text"], input[type="password"], input[type="email"], textarea, select {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
-pre {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
-.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
-.widget .widget-title {
-	font-family: 'Droid Sans Arabic', arial;
-}
-
+body,
+h1, h2, h3, h4, h5, h6, #comment-header,
+input[type="text"], input[type="password"], input[type="email"], textarea, select,
+pre,
+.button, button, input[type="submit"], input[type="reset"], input[type="button"],
+.widget .widget-title,
 #cancel-comment-reply-link {
-	font-family: 'Droid Sans Arabic', arial;
+	font-family: 'Droid Sans Arabic', "Droid Serif", serif, arial;
 }
 
-/* Hide the WordPress Stats Icon if not already hidden from Jetpack -> Stats -> Config */
-#wpstats {
-	display:none;
+/* Change Colors */
+a:link, a:visited { color: #9babb0; }
+a:hover, a:focus { color: #808f93; }
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	background-color:#0c96c2;
 }
-
-/* Fix the Fancier author box styles */
-.ts-fab-list {
-	padding: 0 5px 0 0;
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+	background-color:#637f85;
 }
-
-.ts-fab-list li {
-	float: right;
-	margin: 0 0 0 5px !important;
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	-moz-box-shadow:#a6b7bb;
+	-webkit-box-shadow:#a6b7bb;
+	box-shadow:#a6b7bb;
 }
-
-.ts-fab-list li a {
-	padding: 8px 12px;
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+	-moz-box-shadow:#a6b7bb;
+	-webkit-box-shadow:#a6b7bb; 
+	box-shadow:#a6b7bb;
 }
-
-.ts-fab-avatar {
-	float: right;
-}
-.ts-fab-no-float .ts-fab-avatar {
-	margin: 0 0 12px;
-}
-.ts-fab-text {
-	margin-left: 0;
-	margin-right: 96px;
-}
-.ts-fab-no-float .ts-fab-text {
-	margin-left: 0;
-}
-
-/* Fix bottom links margin */
-#nav-bottom {
-	margin-bottom:20px;
-	margin-bottom:2.0rem;
-}
-
-/* Remove the Sampression Background and make the background white */
-#content-wrapper {
-	background-image:none;
-}
-
-/* Decrease the width of post poster by 2, and replace them with an elegant border */
-.container .four.columns {
-	width:218px;
-}
-
-.post {
-	border:solid 1px #8ab7ad;
-}
-
-/* Give comments a colored background after setting global background to white */
-.commentlist .comment-entry {
-	background-color:#f5f5f5;
-	border-radius:0px;
-	-webkit-border-radius:0px;
-	-moz-border-radius:0px;
-}
-
-/* Changing Colors */
-
-#top-nav ul a:link, #top-nav ul a:visited {
+#site-title {	color:#FE6E41; }
+#comment-header h3, #comments-title, #comment-form-title, #site-description, .widget .widget-title, #page-not-found-message h3, #reply-title {
 	color:#0c96c2;
 }
-
+#header {	border-bottom-color:#c3d5da; }
+#top-nav ul a:link, #top-nav ul a:visited { color:#0c96c2; }
+#top-nav ul ul {
+	border-color:#d2dcdf;
+	box-shadow:#d0dde2;
+}
 #top-nav ul li li a, #top-nav ul li.current-menu-item li a, #top-nav ul li.current-menu-parent li a, #top-nav ul li.current-menu-ancestor li a, #top-nav ul li li.current-menu-item li a, #top-nav ul li li.current-menu-parent li a, /*3rd level*/
 #top-nav ul li li.current-menu-parent li.current-menu-item a {
-	background-color:#fff;
 	color:#0c96c2;
 }
-
 #top-nav ul li li a, 
 #top-nav ul li.current-menu-item li a, 
 #top-nav ul li.current-menu-parent li a, 
@@ -120,63 +60,107 @@ pre {
 #top-nav .sub-menu li:last-child > .sub-menu li a,
 #top-nav .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li a,
 #top-nav .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li:last-child > .sub-menu li a{
+	border-bottom-color:#d2dcdf;
 	color:#0c96c2;
 }
-
-#searchform:hover input {
+#searchform input, .sm-top a, #get-cats, select {
+	border-color:#d2dcdf;
+	-moz-box-shadow:#d2dcdf;
+	-webkit-box-shadow:#d2dcdf; 
+	box-shadow:#d2dcdf;
+}
+#searchform:hover input {	border-color:#0c96c2; }
+#searchform:hover input#searchsubmit{	border-color:#0c96c2; }
+#searchform input#searchsubmit {	 border-color:#d2dcdf; }
+.sm-top li.sm-top-fb a:hover, .sm-top li.sm-top-gplus a:hover , .sm-top li.sm-top-tw a:hover, .sm-top li.sm-top-youtube a:hover {
 	border-color:#0c96c2;
 }
-#searchform:hover input#searchsubmit{
-	border-color:#0c96c2;
+#primary-nav.fixed {
+	-moz-box-shadow:#a6b7bb;
+	-webkit-box-shadow:#a6b7bb;
+	box-shadow:#a6b7bb;
 }
-
-.sm-top li.sm-top-fb a:hover, 
-.sm-top li.sm-top-gplus a:hover ,
-.sm-top li.sm-top-tw a:hover,
-.sm-top li.sm-top-youtube a:hover {
-	border-color:#0c96c2;
+#primary-nav ul.nav-listing li a {	color:#0c96c2; }
+#primary-nav ul.nav-listing li a:hover, #primary-nav ul.nav-listing li a.selected {	color:#0c96c2; }
+#primary-nav ul.nav-listing li a span {	background-color:#0c96c2; }
+#primary-nav ul.nav-listing li a.selected span {	background-color:#0c96c2; }
+.quick-note { 	text-shadow:#a7b8bd; }
+article.post .meta {	border-top-color:#c2cccf; }
+body.single article.post .meta {	border-bottom-color:#c2cccf; }
+.meta, .meta a {	color:#0c96c2; }
+div.entry.clearfix p a{	color: #8aacb7; }
+.count-comment a {	background-color:#c1d2d6; }
+.post-navigation .wp-pagenavi a, .post-navigation .wp-pagenavi span {
+	border-color:#c2cccf;
+	color:#8aacb7;
 }
-
-#primary-nav ul.nav-listing li a {
-	color:#0c96c2;
+.post-navigation .wp-pagenavi a:hover, .post-navigation .wp-pagenavi span.current {
+	border-color:#8aacb7;
+} 
+.widget a {	color:#688a8e; }
+.btn-top {	border-color:#dde7ea; }
+.btn-top:hover {	border-color:#0c96c2; }
+#comment-header h3 a {	text-shadow:#a6b8bd; }
+.commentlist .avatar img, .widget-commentlist img {
+	-moz-box-shadow:#a6b7bb;
+	-webkit-box-shadow:#a6b7bb;
+	 box-shadow:#a6b7bb;
 }
-
-#primary-nav ul.nav-listing li a:hover, #primary-nav ul.nav-listing li a.selected {
-	color:#0c96c2;
+.commentlist .comment-entry {
+	-moz-box-shadow:#a6b7bb;
+	-webkit-box-shadow:#a6b7bb;
+	box-shadow:#a6b7bb;
 }
-
-#primary-nav ul.nav-listing li a span {
-	background-color:#0c96c2;
-}
-
-#primary-nav ul.nav-listing li a.selected span {
-	background-color:#0c96c2;
-}
-
-.btn-top:hover {
-	border:1px solid #0c96c2;
-}
-
-.corner-stamp {
-	background-color:#0c96c2;
-}
-
-.corner-stamp.columns.four {
-	background-color: #0c96c2;
-}
-
+.commentlist .comment-meta {	border-bottom-color:#c2cccf;	}
+.corner-stamp {	background-color:#0c96c2; }
+.corner-stamp.columns.four {	background-color: #0c96c2; }
+.post.corner-stamp .post-title {	border-bottom-color:#759fab; }
+.corner-stamp header {	border-bottom-color:#759fab; }
+.post.corner-stamp .entry{	border-top-color:#9bb9c2; }
+.corner-stamp .categories a, .corner-stamp .categories li.current-cat li a {	color:#cde6eb; }		
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 5/2),
 only screen and ( min-resolution: 144dpi) {
-	.button,
-	button,
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"] {
-		background: url('images/arrow2x.png') no-repeat 9px 9px #0c96c2;
-	}
-	#primary-nav ul.nav-listing li a.selected span {
-		background-color: #0c96c2;
-	}
+	.button, button, input[type="submit"], input[type="reset"], input[type="button"] {	background-color:#0c96c2;	}
+	#searchform{	box-shadow:#d2dcdf; }
+	#primary-nav ul.nav-listing li a.selected span {	background-color: #0c96c2;	}
 }
+
+/* Remove the Sampression Background and make the background white */
+#content-wrapper { 	background-image:none; }
+
+/* Decrease the width of post poster by 2, and replace them with an elegant border */
+.container .four.columns {	width:218px; }
+.post {	border:solid 1px #8aadb7; }
+
+/* Give comments a colored background after setting global background to white */
+.commentlist .comment-entry {
+	background-color:#f5f5f5;
+	border-radius:0px;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+}
+
+/* Fix bottom links margin */
+#nav-bottom {
+	margin-bottom:20px;
+	margin-bottom:2.0rem;
+}
+
+/* Hide the WordPress Stats Icon if not already hidden from Jetpack -> Stats -> Config */
+#wpstats {	display:none; }
+
+/* Fix the Fancier author box styles */
+.ts-fab-list {	padding: 0 5px 0 0; }
+.ts-fab-list li {
+	float: right;
+	margin: 0 0 0 5px !important;
+}
+.ts-fab-avatar {	float: right; }
+.ts-fab-no-float .ts-fab-avatar {	margin: 0 0 12px; }
+.ts-fab-text {
+	margin-left: 0;
+	margin-right: 96px;
+}
+.ts-fab-no-float .ts-fab-text {	margin-left: 0; }
