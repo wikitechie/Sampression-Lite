@@ -15,6 +15,15 @@ pre,
 	font-family: 'Droid Sans Arabic', "Droid Serif", serif, arial;
 }
 
+/* Fix Isotope RTL */
+.isotope .isotope-item {
+	-webkit-transition-property: right, top, -webkit-transform, opacity;
+	-moz-transition-property: right, top, -moz-transform, opacity;
+	-ms-transition-property: right, top, -ms-transform, opacity;
+	-o-transition-property: right, top, -o-transform, opacity;
+	transition-property: right, top, transform, opacity;
+}
+
 /* Change Colors */
 a:link, a:visited { color: #9babb0; }
 a:hover, a:focus { color: #808f93; }
